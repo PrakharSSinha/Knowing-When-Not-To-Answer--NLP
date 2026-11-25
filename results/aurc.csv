@@ -1,0 +1,6 @@
+signal,aurc
+Prompt 3-way P(A),0.380800
+Retrieval confidence (R),0.378708
+LLM self-confidence (C),0.373915
+Lightweight classifier (L),0.380422
+Combined score (S),0.367940

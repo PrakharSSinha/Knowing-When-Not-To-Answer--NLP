@@ -1,0 +1,9 @@
+outputs/
+*.pkl
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.env
+.DS_Store
+data/*
+!data/README.md

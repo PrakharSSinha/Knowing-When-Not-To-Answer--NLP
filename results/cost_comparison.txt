@@ -1,0 +1,3 @@
+params (M)  sec / item
+Classifier (L)             278.0460      0.0370
+LLM scoring (C / 3-way)   1543.7143      0.1881

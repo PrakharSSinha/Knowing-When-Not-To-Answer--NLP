@@ -1,0 +1,12 @@
+torch
+transformers>=4.44
+datasets<4
+sentence-transformers
+accelerate
+scikit-learn
+pandas
+numpy
+matplotlib
+jinja2
+tqdm
+jupyter

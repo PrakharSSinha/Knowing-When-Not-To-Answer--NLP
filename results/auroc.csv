@@ -1,0 +1,6 @@
+signal,AUROC (sufficient vs not)
+Prompt 3-way P(A),0.857
+Retrieval confidence (R),0.864
+LLM self-confidence (C),0.878
+Lightweight classifier (L),0.859
+Combined score (S),0.896

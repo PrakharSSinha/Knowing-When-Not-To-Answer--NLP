@@ -1,0 +1,9 @@
+method,hallucination_rate,error_rate,coverage,answering_precision,selective_accuracy
+1. Standard RAG (always answer),1.000,0.000,1.000,0.449,0.217
+2. Prompt abstention,0.360,0.378,0.478,0.584,0.326
+3. Sufficiency: prompt 3-way (=A),0.587,0.130,0.714,0.547,0.282
+4a. Retrieval confidence (R),0.582,0.142,0.706,0.545,0.280
+4b. LLM self-confidence (C),0.504,0.149,0.660,0.579,0.305
+4c. Lightweight classifier (L),0.554,0.124,0.699,0.563,0.278
+5. Selective generation S (Youden τ),0.451,0.158,0.626,0.603,0.304
+5. Selective generation S (τ @ ≤10% halluc.),0.335,0.238,0.526,0.649,0.346

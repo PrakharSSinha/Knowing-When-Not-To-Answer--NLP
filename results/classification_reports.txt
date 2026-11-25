@@ -1,0 +1,21 @@
+Zero-shot LLM
+                            precision    recall  f1-score   support
+
+               SUFFICIENT       0.62      0.82      0.71       360
+RELEVANT_BUT_INSUFFICIENT       0.31      0.52      0.39       360
+               IRRELEVANT       1.00      0.00      0.01       360
+
+                 accuracy                           0.45      1080
+                macro avg       0.64      0.45      0.37      1080
+             weighted avg       0.64      0.45      0.37      1080
+
+Classifier
+                            precision    recall  f1-score   support
+
+               SUFFICIENT       0.64      0.73      0.68       360
+RELEVANT_BUT_INSUFFICIENT       0.64      0.56      0.60       360
+               IRRELEVANT       0.97      0.95      0.96       360
+
+                 accuracy                           0.75      1080
+                macro avg       0.75      0.75      0.75      1080
+             weighted avg       0.75      0.75      0.75      1080
